@@ -7,7 +7,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.forms.models import model_to_dict
 
 
-@csrf_exempt()
+@csrf_exempt
 def nextTask(request):
     try:
         # get data from request
