@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # local
     'bots.apps.BotsConfig',
+    'packages.apps.PackagesConfig',
 ]
 
 MIDDLEWARE = [
