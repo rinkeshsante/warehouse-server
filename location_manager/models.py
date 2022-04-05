@@ -2,7 +2,7 @@ from django.db import models
 
 
 class LoactionManger(models.Model):
-    postal_address = models.IntegerField()
+    postal_address = models.IntegerField(unique=True)
 
     location_X = models.IntegerField()
     location_Y = models.IntegerField()
